@@ -12,9 +12,9 @@ import Foundation
 import PackageDescription
 
 let sdkName = "FBAudienceNetwork"
-let sdkVersion = "6.21.0"
+let sdkVersion = "6.21.1"
 let sdkCdnBaseUrl = "https://developers.facebook.com/resources"
-let sdkChecksum = "adb29e88c72658f9871b61ef703c85c4202aac8e7a22e08b309c4688c8a9666f"
+let sdkChecksum = "c8b3fa80b51d5511a0fe41039b924cc7eba7cbf47ca5cff67e89706034ce0316"
 
 let package = Package(
   name: sdkName,
