@@ -14,11 +14,11 @@ import PackageDescription
 let sdkName = "FBAudienceNetwork"
 let sdkVersion = "6.22.0"
 let sdkCdnBaseUrl = "https://developers.facebook.com/resources"
-let sdkChecksum = "08a82bcb881e39f6b60a967d3b1a20dc97678bfe9003d797055acb07085d040f"
+let sdkChecksum = "4d84bf1e404a83852a93af2ae73e22e45bb2b11e0a9a445c3b461173a5d6aec3"
 
 let package = Package(
   name: sdkName,
-  platforms: [.iOS(.v13)],
+  platforms: [.iOS(.v15)],
   products: [
     .ansdk
   ],
