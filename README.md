@@ -18,7 +18,7 @@ Once you have your Swift package set up, adding FBAudienceNetwork as a dependenc
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/facebook/FBAudienceNetwork", .upToNextMajor(from: "6.21.0"))
+    .package(url: "https://github.com/facebook/FBAudienceNetwork", .upToNextMajor(from: "6.22.0"))
 ]
 ```
 
@@ -27,7 +27,7 @@ dependencies: [
 1. Open your project in Xcode
 2. Go to **File** > **Add Package Dependencies...**
 3. Enter the package repository URL: `https://github.com/facebook/FBAudienceNetwork`
-4. Select the version rule (e.g., "Up to Next Major Version" from `6.21.0`)
+4. Select the version rule (e.g., "Up to Next Major Version" from `6.22.0`)
 5. Click **Add Package**
 6. Select the `FBAudienceNetwork` library and add it to your target
 
@@ -45,7 +45,7 @@ Then run `pod install` in the project folder from command line to download the l
 
 ## Requirements
 
-- iOS 13.0+
+- iOS 15.0+
 - Swift 5.3+
 - Xcode 26 or newer
 
