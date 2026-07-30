@@ -46,7 +46,7 @@ Then run `pod install` in the project folder from command line to download the l
 ## Requirements
 
 - iOS 15.0+
-- Swift 5.3+
+- Swift 5.5+
 - Xcode 26 or newer
 
 ## Documentation
